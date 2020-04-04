@@ -1,0 +1,55 @@
+.Main-container {
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+
+}
+
+/* navigation bar section */
+.nav-bar {display: flex;
+    color:black;
+    background-color: whitesmoke;
+    border: 2px solid;
+    justify-content: flex-start;
+    padding: 10px;
+
+}
+/* links in navigation bar below for Landing page */
+.BostonSW {
+    width: 1000px;
+}
+.loglink {
+
+    width:70px;
+}
+.signlink {
+    width:65px;
+}
+  /* visited link */
+  a:visited {
+    color: grey;
+  }
+  /* mouse over link */
+  a:hover {
+    color: blue;
+  }
+  /* selected link */
+  a:active {
+    color: red;
+  }
+  /* Title and text section of Landing page */
+  .Sub-container{
+      border: 2px solid green;
+      background-color: whitesmoke;
+      padding: 30px;
+      margin: 10px;
+  }
+   a:link, .viewCompanies{
+    color: blue
+  }
+button {
+    background-color: blue;
+    color: white;
+    width: 130px;
+    padding: 10px;
+}
